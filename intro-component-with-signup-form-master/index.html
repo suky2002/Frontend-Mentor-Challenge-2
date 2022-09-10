@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="bootstrap.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,700&display=swap');
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+      body{
+          background: hsl(0, 100%, 74%);
+      }
+      .freetrial{
+          background: hsl(248, 32%, 49%);
+          border-radius: 7px;
+          height:50px;
+          text-align: center;
+          color: white;
+          font-family: 'Outfit', sans-serif;
+          padding-top: 10px;
+          box-shadow: -1px 5px rgb(0 0 0 / 0.2);
+      }
+      .button{
+          background:hsl(154, 59%, 51%);
+          border-color:hsl(154, 59%, 51%);
+          border-radius: 7px;
+            margin:10px 10px ; 
+          width: 95%; 
+          height: 50px;
+          color: white;
+          font-family: 'Outfit', sans-serif;
+          font-size: 18px;
+          
+      }
+  </style>
+</head>
+<body style= "background-image: url(images/bg-intro-desktop.png);">
+    <div class="container">
+        <div class="row" style="margin-top: 20%;">
+          <div class="col-md-6" style="margin-top: 10%;">
+                <h1 style="color: white;  font-family: 'Poppins', sans-serif;">Learn to code by watching others</h1>
+            
+
+  <p style="color: white; font-family: 'Outfit', sans-serif; margin-top: 5%; font-size: 18px;">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. </p>
+    </div>
+    <div class="col-md-6">
+<div class="freetrial" style="margin-bottom: 5%;">
+    <strong>Try it free 7 days</strong> then $20/mo. thereafter
+</div>
+<div style="background: white; border-radius: 7px; border: 10px solid white; box-shadow: -1px 5px rgb(0 0 0 / 0.2); ">
+    <form>
+    <input type="text " placeholder="First Name " style=" margin:10px 10px ; width: 95%; height:50px">
+    <input type="text " placeholder="Last Name" style=" margin:10px 10px ; width: 95%; height:50px">
+    <input type="email " placeholder="Email Address " style=" margin:10px 10px ; width: 95%; height:50px">
+    <input type="password" placeholder="Password " style=" margin:10px 10px ; width: 95%; height:50px">
+    <button class="button"> CLAIM YOUR FREE TRIAL
+</button>
+ 
+ 
+        <p class="attribution" style="color: hsl(246, 25%, 77%);">By clicking the button, you are agreeing to our <strong style="color:hsl(0, 100%, 74%)">Terms and Services</strong></p>
+        
+      </form>
+        </div>
+    </div>
+        </div>
+        </div>
+  <footer>
+    <p class="attribution" style="margin-top: 10%;">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Sorana-Elena Ion</a>.
+    </p>
+  </footer>
+</body>
+</html>
